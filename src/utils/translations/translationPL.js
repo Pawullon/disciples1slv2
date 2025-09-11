@@ -65,6 +65,10 @@ export const translationPL = {
     abilName: "Nazwa",
     abilDesc: "Opis",
 
+    plantRod: "Zasadź różdżkę",
+    magic: "Użyj lasek i zwojów",
+    flying: "Lot",
+
     units: {
         "g000uu0001": {
             name: "Żołnierz",

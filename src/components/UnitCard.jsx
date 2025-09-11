@@ -128,7 +128,15 @@ export default function UnitCard(props) {
             {leaderList.includes(selectedUnit.name) && (
                 <div className="abilities">
                     <div className="abil-label">{t("abilitiesLabel")}:</div>
-
+                    {
+                        (selectedUnit.rod || selectedUnit.magic || selectedUnit.flying)
+                        ? (<>
+                            {selectedUnit.rod && (<div className="abil"><img style={{aspectRatio: "38/20"}} src="/icons/rod.png"/>{t("plantRod")}</div>)}
+                            {selectedUnit.magic && (<div className="abil"><img style={{aspectRatio: "39/13"}} src="/icons/magic.png"/>{t("magic")}</div>)}
+                            {selectedUnit.flying && (<div className="abil"><img style={{aspectRatio: "40/19"}} src="/icons/flying.png"/>{t("flying")}</div>)}
+                        </>)
+                        : "Brak"
+                    }
                 </div>
             )}
             <button className="button-back" onClick={() => setSelectedUnit(undefined)}></button>

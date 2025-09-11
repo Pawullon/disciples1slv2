@@ -355,6 +355,7 @@ nav {
 .unit-card {
   box-sizing: border-box;
   padding: calc(100cqh * 39 / 480) calc(100cqw * 70 / 640) calc(100cqh * 73 / 480) calc(100cqw * 54 / 640);
+  overflow: hidden;
 }
 
 .unit-info {
@@ -443,8 +444,19 @@ nav {
 }
 
 .abilities {
+  display: flex;
+  flex-direction: column;
   font-size: 3cqh;
   font-weight: bolder;
+}
+
+.abil {
+  display: flex;
+
+}
+
+.abil>img {
+  height: 3cqh;
 }
 
 .build-menu {

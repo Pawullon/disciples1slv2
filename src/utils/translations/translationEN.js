@@ -59,11 +59,15 @@ export const translationEN = {
     guildmaster: "Guildmaster",
     mageLord: "Mage Lord",
     
-    itemCats: ["Artifacts", "Banners", "Potions", "Tomes", "Scrolls", "Staves", "Valuables"],
+    itemCats: ["Artifacts", "Banners", "Potions", "Tomes", "Scrolls", "Staffs", "Valuables"],
 
     abilMinLevel: "Min Level",
     abilName: "Name",
-    abilDesc: "Description",    
+    abilDesc: "Description",
+    
+    plantRod: "Plant rod",
+    magic: "Use Staffs & Scrolls",
+    flying: "Flying",
 
     units: {
         "g000uu0001": {
