@@ -134,6 +134,7 @@ nav {
   height: 100%;
   aspect-ratio: 1;
   cursor: url(/cursor-pointer.png), pointer;
+  border-width: 0.9cqw;
   border-style: outset;
   border-color: rgb(255, 247, 153);
   border-radius: 50%;

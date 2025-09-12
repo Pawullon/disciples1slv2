@@ -28,7 +28,7 @@ export const translationEN = {
 
     levelLabel: "Level",
     xpLabel: "XP",
-    yieldLabel: "XP Yield",
+    yieldLabel: "XP gained",
     leadershipLabel: "Leadership",
     movepointsLabel: "Move Points",
     hpLabel: "HP",
