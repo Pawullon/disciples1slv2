@@ -38,7 +38,7 @@ export default function SideNav(props) {
                 setSelectedSubPage(undefined)
                 setSelectedTab(undefined)
                 setSelectedUnit(undefined)
-            }} className={'nav-card'} style={{ fontSize: `${1.15 * sideBorderWidth}px` }}>
+            }} className={'nav-card'} style={{ fontSize: `${1.15 * sideBorderWidth}px`, width: "90%", height: `${2.75 * sideBorderWidth}px` }}>
                 <p>Start</p>
             </button>
             {t('raceNames', { returnObjects: true }).map((race, raceIndex) => {
@@ -48,7 +48,7 @@ export default function SideNav(props) {
                         setSelectedSubPage(undefined)
                         setSelectedTab(raceIndex === 4 ? 0 : undefined)
                         setSelectedUnit(undefined)
-                    }} style={{ fontSize: `${1.15 * sideBorderWidth}px` }}
+                    }} style={{ fontSize: `${1.15 * sideBorderWidth}px`, width: "90%", height: `${2.75 * sideBorderWidth}px` }}
                         key={raceIndex} className={`nav-card race${raceIndex} ` + (raceIndex === selectedRace ? 'nav-card-selected' : '')}>
                         <p>{race}</p>
                     </button>
@@ -61,7 +61,7 @@ export default function SideNav(props) {
                         setSelectedRace(undefined)
                         setSelectedTab(undefined)
                         setSelectedUnit(undefined)
-                    }} style={{ fontSize: `${1.15 * sideBorderWidth}px` }}
+                    }} style={{ fontSize: `${1.15 * sideBorderWidth}px`, width: "90%", height: `${2.75 * sideBorderWidth}px` }}
                         key={miscIndex} className={`nav-card ${misc} ` + (miscIndex === selectedSubPage ? 'nav-card-selected' : '')}>
                         <p>{misc}</p>
                     </button>

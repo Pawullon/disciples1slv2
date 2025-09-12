@@ -47,8 +47,7 @@ nav {
   background-image: url(/buttons/nav-card.png);
   background-size: 100% 100%;
   border-radius: 44px;
-  width: 90cqw;
-  height: calc(90cqw * 11 / 39);
+  aspect-ratio: 39 / 11;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1236,9 +1235,16 @@ nav {
 }
 
 .cheat-page {
+  overflow: hidden;
   padding-top: 6%;
   padding-right: 7.77%;
   padding-bottom: 10%;
+}
+
+.cheat-page ul {
+  overflow: auto;
+  height: 100%;
+  padding-left: 1cqw;
 }
 
 .cheat-page li {
