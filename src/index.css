@@ -77,7 +77,6 @@ nav {
 .nav-card.race0:active,
 .race0.nav-card-selected {
   -webkit-box-shadow: inset 0 0 5cqw rgb(79, 143, 247);
-  -moz-box-shadow: inset 0 0 5cqw rgb(79, 143, 247);
   box-shadow: inset 0 0 5cqw rgb(79, 143, 247);
   background-image: url(/buttons/nav-card-empire-active.png);
 }
@@ -85,7 +84,6 @@ nav {
 .nav-card.race1:active,
 .race1.nav-card-selected {
   -webkit-box-shadow: inset 0 0 5cqw rgb(194, 190, 169);
-  -moz-box-shadow: inset 0 0 5cqw rgb(194, 190, 169);
   box-shadow: inset 0 0 5cqw rgb(194, 190, 169);
   background-image: url(/buttons/nav-card-clans-active.png);
 }
@@ -93,7 +91,6 @@ nav {
 .nav-card.race2:active,
 .race2.nav-card-selected {
   -webkit-box-shadow: inset 0 0 5cqw rgb(255, 0, 0);
-  -moz-box-shadow: inset 0 0 5cqw rgb(255, 0, 0);
   box-shadow: inset 0 0 5cqw rgb(255, 0, 0);
   background-image: url(/buttons/nav-card-legions-active.png);
 }
@@ -101,7 +98,6 @@ nav {
 .nav-card.race3:active,
 .race3.nav-card-selected {
   -webkit-box-shadow: inset 0 0 5cqw rgb(120, 245, 19);
-  -moz-box-shadow: inset 0 0 5cqw rgb(120, 245, 19);
   box-shadow: inset 0 0 5cqw rgb(120, 245, 19);
   background-image: url(/buttons/nav-card-hordes-active.png);
 }
@@ -109,7 +105,6 @@ nav {
 .nav-card.race4:active,
 .race4.nav-card-selected {
   -webkit-box-shadow: inset 0 0 5cqw rgb(255, 255, 0);
-  -moz-box-shadow: inset 0 0 5cqw rgb(255, 255, 0);
   box-shadow: inset 0 0 5cqw rgb(255, 255, 0);
   background-image: url(/buttons/nav-card-neutral-active.png);
 }
@@ -117,7 +112,6 @@ nav {
 .nav-card:active,
 .nav-card-selected {
   -webkit-box-shadow: inset 0 0 5cqw rgb(255, 247, 153);
-  -moz-box-shadow: inset 0 0 5cqw rgb(255, 247, 153);
   box-shadow: inset 0 0 5cqw rgb(255, 247, 153);
 }
 
@@ -243,7 +237,6 @@ nav {
 
 .tab-card:hover {
   -webkit-box-shadow: inset 0 0 2cqw rgb(255, 247, 153);
-  -moz-box-shadow: inset 0 0 2cqw rgb(255, 247, 153);
   box-shadow: inset 0 0 2cqw rgb(255, 247, 153);
 }
 
@@ -1161,13 +1154,11 @@ nav {
 
 .build-button:hover {
   -webkit-box-shadow: inset 0 0 1cqw rgb(255, 247, 153);
-  -moz-box-shadow: inset 0 0 1cqw rgb(255, 247, 153);
   box-shadow: inset 0 0 1cqw rgb(255, 247, 153);
 }
 
 .build-button.active {
   -webkit-box-shadow: inset 0 0 1cqw rgb(255, 255, 0);
-  -moz-box-shadow: inset 0 0 1cqw rgb(255, 255, 0);
   box-shadow: inset 0 0 1cqw rgb(255, 255, 0);
 }
 
