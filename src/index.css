@@ -47,8 +47,8 @@ nav {
   background-image: url(/buttons/nav-card.png);
   background-size: 100% 100%;
   border-radius: 44px;
-  width: 90%;
-  aspect-ratio: 39 / 11;
+  width: 90cqw;
+  height: calc(90cqw * 11 / 39);
   display: flex;
   align-items: center;
   justify-content: center;
