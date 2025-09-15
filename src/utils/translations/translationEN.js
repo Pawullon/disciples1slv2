@@ -19,7 +19,7 @@ export const translationEN = {
     Inne: "Other",
     sources: ["Weapon", "Mind", "Life", "Death", "Fire", "Water", "Earth", "Air"],
     reaches: ["", "Any unit", "Any unit", "Adjacent units"],
-    targets: [0,6,1,1],
+    targets: [0, 6, 1, 1],
 
     goToNormal: "Show Unit",
     goToLeader: "Show Leader",
@@ -58,13 +58,13 @@ export const translationEN = {
     warriorLord: "Warrior Lord",
     guildmaster: "Guildmaster",
     mageLord: "Mage Lord",
-    
+
     itemCats: ["Artifacts", "Banners", "Potions", "Tomes", "Scrolls", "Staffs", "Valuables"],
 
     abilMinLevel: "Min Level",
     abilName: "Name",
     abilDesc: "Description",
-    
+
     plantRod: "Plant rod",
     magic: "Use Staffs & Scrolls",
     flying: "Flying",
@@ -472,7 +472,7 @@ export const translationEN = {
         },
         "g000uu0101": {
             name: "Skeleton",
-            desc: "Feeble skeleton raised from the dead of the land. Greatly used as scouts. Lasts 1 day" 
+            desc: "Feeble skeleton raised from the dead of the land. Greatly used as scouts. Lasts 1 day"
         },
         "g000uu0102": {
             name: "Evil Ent",
@@ -656,7 +656,7 @@ export const translationEN = {
         },
         "g000uu0149": {
             name: "Hela",
-            desc: "Guardian of the realm of the dead, Hela calls upon death powers to tear her enemy to limbs. Few can survive her venomous breath" 
+            desc: "Guardian of the realm of the dead, Hela calls upon death powers to tear her enemy to limbs. Few can survive her venomous breath"
         },
         "g000uu0219": {
             name: "Pegasus Knight",
@@ -2406,19 +2406,19 @@ export const translationEN = {
         },
         g000ig4001: {
             name: "Tome of Air",
-            desc: "The leader equipped with this item is unaffected by the first air based attack in battle and units are unaffected by the air based spells"
+            desc: "The leader equipped with this item is unaffected by the first air based attack in battle and the party on the world map is unaffected by the air based spells"
         },
         g000ig4002: {
             name: "Tome of Water",
-            desc: "The leader equipped with this item is unaffected by the first water based attack in battle and units are unaffected by the water based spells"
+            desc: "The leader equipped with this item is unaffected by the first water based attack in battle and the party on the world map is unaffected by the water based spells"
         },
         g000ig4003: {
             name: "Tome of Earth",
-            desc: "The leader equipped with this item is unaffected by the first earth based attack in battle and units are unaffected by the earth based spells"
+            desc: "The leader equipped with this item is unaffected by the first earth based attack in battle and the party on the world map is unaffected by the earth based spells"
         },
         g000ig4004: {
             name: "Tome of Fire",
-            desc: "The leader equipped with this item is unaffected by the first fire based attack in battle and units are unaffected by the fire based spells"
+            desc: "The leader equipped with this item is unaffected by the first fire based attack in battle and the party on the world map is unaffected by the fire based spells"
         },
         g000ig5001: {
             name: "Air ward scroll",
@@ -2884,7 +2884,7 @@ export const translationEN = {
         },
         g000ab0012: {
             name: "Precision",
-            desc: "Increases by  20% the chances to hit of the leader's attack"
+            desc: "Increases by 20% the chances to hit of the leader's attack"
         },
         g000ab0013: {
             name: "Incorruptible",
