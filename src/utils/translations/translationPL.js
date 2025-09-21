@@ -2406,19 +2406,19 @@ export const translationPL = {
         },
         g000ig4001: {
             name: "Tom Powietrza",
-            desc: "Na wodza posiadającego ten przedmiot nie działa pierwszy atak oparty na sile powietrza, a drużyna na mapie świata jest odporna na zaklęcia oparte na sile powietrza."
+            desc: "Na wodza posiadającego ten przedmiot nie działa pierwszy atak oparty na sile powietrza, a jego drużyna na mapie świata jest odporna na zaklęcia oparte na sile powietrza."
         },
         g000ig4002: {
             name: "Tom Wody",
-            desc: "Na wodza posiadającego ten przedmiot nie działa pierwszy atak oparty na sile wody, a drużyna na mapie świata jest odporna na zaklęcia oparte na sile wody."
+            desc: "Na wodza posiadającego ten przedmiot nie działa pierwszy atak oparty na sile wody, a jego drużyna na mapie świata jest odporna na zaklęcia oparte na sile wody."
         },
         g000ig4003: {
             name: "Tom Ziemi",
-            desc: "Na wodza posiadającego ten przedmiot nie działa pierwszy atak oparty na sile ziemi, a drużyna na mapie świata jest odporna na zaklęcia oparte na sile ziemi."
+            desc: "Na wodza posiadającego ten przedmiot nie działa pierwszy atak oparty na sile ziemi, a jego drużyna na mapie świata jest odporna na zaklęcia oparte na sile ziemi."
         },
         g000ig4004: {
             name: "Tom Ognia",
-            desc: "Na wodza posiadającego ten przedmiot nie działa pierwszy atak oparty na sile ognia, a drużyna na mapie świata jest odporna na zaklęcia oparte na sile ognia."
+            desc: "Na wodza posiadającego ten przedmiot nie działa pierwszy atak oparty na sile ognia, a jego drużyna na mapie świata jest odporna na zaklęcia oparte na sile ognia."
         },
         g000ig5001: {
             name: "Zwój Ochrony przed Powietrzem",

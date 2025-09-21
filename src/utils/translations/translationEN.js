@@ -2406,19 +2406,19 @@ export const translationEN = {
         },
         g000ig4001: {
             name: "Tome of Air",
-            desc: "The leader equipped with this item is unaffected by the first air based attack in battle and the party on the world map is unaffected by the air based spells"
+            desc: "The leader equipped with this item is unaffected by the first air based attack in battle and the leader's party is unaffected by the air based spells cast on the world map"
         },
         g000ig4002: {
             name: "Tome of Water",
-            desc: "The leader equipped with this item is unaffected by the first water based attack in battle and the party on the world map is unaffected by the water based spells"
+            desc: "The leader equipped with this item is unaffected by the first water based attack in battle and the leader's party is unaffected by the water based spells cast on the world map"
         },
         g000ig4003: {
             name: "Tome of Earth",
-            desc: "The leader equipped with this item is unaffected by the first earth based attack in battle and the party on the world map is unaffected by the earth based spells"
+            desc: "The leader equipped with this item is unaffected by the first earth based attack in battle and the leader's party is unaffected by the earth based spells cast on the world map"
         },
         g000ig4004: {
             name: "Tome of Fire",
-            desc: "The leader equipped with this item is unaffected by the first fire based attack in battle and the party on the world map is unaffected by the fire based spells"
+            desc: "The leader equipped with this item is unaffected by the first fire based attack in battle and the leader's party is unaffected by the fire based spells cast on the world map"
         },
         g000ig5001: {
             name: "Air ward scroll",
