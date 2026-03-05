@@ -3,6 +3,7 @@ export const translationPL = {
     raceNames: ["Imperium", "Klany", "Legion", "Hordy", "Neutralne"],
     miscTabs: ["Przedmioty", "Zdolności", "Kody"],
     catButtons: ["Jednostki", "Dowódcy / Strażnik", "Budynki", "Zaklęcia", "Stolica"],
+    HoN: "Dzieje Nevendaar",
     catButtonsNeutral: ["Jednostki"],
 
     unitTypes: ["Wojownicy", "Magowie", "Strzelcy", "Wsparcie", "Przywołane"],

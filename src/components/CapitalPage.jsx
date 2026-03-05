@@ -4,6 +4,7 @@ import { unitData } from "../data/units.js"
 import { useTranslation } from "react-i18next"
 import { isBranchBuilt } from "../utils/isBranchBuilt.js"
 
+
 export default function CapitalPage(props) {
     const { setSelectedTab, selectedRace } = props
     const [selectedCat, setSelectedCat] = useState("melee")
@@ -26,7 +27,6 @@ export default function CapitalPage(props) {
         ['g000bb0053', "g000bb0054", "g000bb0055", "g000bb0056", "g000bb0057"],
         ['g000bb0058', 'g000bb0059', 'g000bb0060', 'g000bb0061', 'g000bb0062'],
         ['g000bb0064', 'g000bb0065'],
-        // add more groups here if needed
     ]
 
     const handleShowBuilding = (buildIndex) => {

@@ -3,6 +3,7 @@ export const translationEN = {
     raceNames: ["Empire", "Clans", "Legions", "Hordes", "Neutral"],
     miscTabs: ["Items", "Abilities", "Cheats"],
     catButtons: ["Units", "Leaders / Guardian", "Buildings", "Spells", "Capital"],
+    HoN: "History of Nevendaar",
     catButtonsNeutral: ["Units"],
 
     unitTypes: ["Fighters", "Mages", "Range", "Support", "Summoned"],

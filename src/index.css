@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: start;
   place-content: center;
+  overflow: hidden;
 }
 
 #root {
@@ -160,6 +161,42 @@ nav {
   border-image: url(/backgrounds/border-container.png) 25 15 35 15 round;
   container-type: size;
   container-name: main;
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  gap: 1cqw;
+}
+
+.footer-link {
+  height: 60%;
+  aspect-ratio: 8/1;
+  font-weight: bold;
+  font-size: 1.8cqw;
+  cursor: url(/cursor-pointer.png), pointer;
+  background-image: url(/buttons/link-button.png);
+  background-size: 100% 100%;
+  border: none;
+  border-radius: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5cqw;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link img {
+  height: 65%;
+}
+
+.footer-link:hover {
+  box-shadow: inset 0 0 0 0.15cqw rgb(239, 194, 103);
 }
 
 .start-page,
