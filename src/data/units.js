@@ -577,7 +577,7 @@ export const unitData = [
   },
   {
     unitIndex: "g000uu0027",
-    leaderIndex: "g000uu0027",
+    leaderIndex: "g000uu2027",
     lvl: 2,
     prevIndex: "g000uu0026",
     race: "race1",

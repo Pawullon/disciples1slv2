@@ -70,7 +70,7 @@ const BRANCH_DEPENDENCIES = {
 }
 
 export const isBranchBuilt = (buildIndex, builds) => {
-    const dependencies = BRANCH_DEPENDENCIES[buildIndex]
+    const dependencies = BRANCH_DEPENDENCIES[buildIndex]   
     if (!dependencies) return false
 
     return dependencies.some(index => builds[index]?.isBuilt)
