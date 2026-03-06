@@ -43,7 +43,8 @@ export default function ItemMenu({ setSelectedSubPage }) {
                 {t(`items.${item.itemIndex}.name`)}
                 <br />
                 {t(`items.${item.itemIndex}.desc`)}
-
+                <br />
+                {t("buySellPrice")}: {item.value}<img src={`/icons/gold.png`} loading="lazy" style={{height: "1.53cqw"}} /> / {item.value / 5}<img src={`/icons/gold.png`} loading="lazy" style={{height: "1.53cqw"}}/>
             </div>
         </>
     )

@@ -55,6 +55,8 @@ export const translationEN = {
     buyCostLabel: "Buy Price",
     researchCostLabel: "Research Cost",
     castCostLabel: "Casting Cost",
+    
+    buySellPrice: "Buy / Sell Price",
 
     warriorLord: "Warrior Lord",
     guildmaster: "Guildmaster",

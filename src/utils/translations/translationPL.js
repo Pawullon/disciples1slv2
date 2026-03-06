@@ -56,6 +56,8 @@ export const translationPL = {
     researchCostLabel: "Koszt badań",
     castCostLabel: "Koszt rzutu",
 
+    buySellPrice: "Cena kupna / sprzedaży",
+
     warriorLord: "Komes",
     guildmaster: "Mistrz Gildii",
     mageLord: "Arcymag",
@@ -2351,7 +2353,7 @@ export const translationPL = {
         },
         g000ig2001: {
             name: "Kamień Runiczny (Artefakt)",
-            desc: "Wódz posiadający ten przedmiot otrzymuje 10% mniej punktów obrażen."
+            desc: "Wódz posiadający ten przedmiot otrzymuje 10% mniej punktów obrażeń."
         },
         g000ig2002: {
             name: "Święty Kielich (Artefakt)",

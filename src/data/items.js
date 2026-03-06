@@ -822,84 +822,98 @@ export const itemData = [
     itemIndex: "g000ig6001",
     category: 5,
     name: "Laska Grzmotu",
+    castingCost: "y0100",
     value: 600
   },
   {
     itemIndex: "g000ig6002",
     category: 5,
     name: "Laska Nekromancji",
+    castingCost: "e0100",
     value: 600
   },
   {
     itemIndex: "g000ig6003",
     category: 5,
     name: "Laska Świętości",
+    castingCost: "y0200",
     value: 1200
   },
   {
     itemIndex: "g000ig6004",
     category: 5,
     name: "Laska Paraliżu",
+    castingCost: "r0150:e0150",
     value: 1800
   },
   {
     itemIndex: "g000ig6005",
     category: 5,
     name: "Laska Podróży",
+    castingCost: "y0200",
     value: 1200
   },
   {
     itemIndex: "g000ig6006",
     category: 5,
     name: "Laska Zmierzchu",
+    castingCost: "e0200",
     value: 1200
   },
   {
     itemIndex: "g000ig6007",
     category: 5,
     name: "Laska Światła",
+    castingCost: "y0200",
     value: 1200
   },
   {
     itemIndex: "g000ig6008",
     category: 5,
     name: "Laska Niewidzialności",
+    castingCost: "r0150:y0150",
     value: 1800
   },
   {
     itemIndex: "g000ig6009",
     category: 5,
     name: "Laska Kontroli Żywiołaków Ziemi",
+    castingCost: "r0100:y0200:w0100",
     value: 2400
   },
   {
     itemIndex: "g000ig6010",
     category: 5,
     name: "Laska Demonologii",
+    castingCost: "r0200:y0100:e0100",
     value: 3000
   },
   {
     itemIndex: "g000ig6011",
     category: 5,
     name: "Laska Władzy nad Smokami",
+    castingCost: "e0150:w0150",
     value: 1800
   },
   {
     itemIndex: "g000ig6012",
     category: 5,
     name: "Laska Prędkości",
+    castingCost: "y0100",
     value: 600
   },
   {
     itemIndex: "g000ig6013",
     category: 5,
     name: "Duchowa Laska",
+    castingCost: "y0150:w0150",
     value: 1800
   },
   {
     itemIndex: "g000ig6014",
     category: 5,
     name: "Laska Ochrony",
+    castingCost: "y0150:w0150",
     value: 1800
   },
   {
