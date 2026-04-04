@@ -30,6 +30,13 @@ export default function UnitCard(props) {
         "Książę", "Doradca", "Arcydiabeł", "Baronowa",
         "Rycerz Śmierci", "Nosferatu", "Królowa Liczy", "Banshee"
     ]
+    const skilledList = [
+        "Pegazi Rycerz", "Myśliwy", "Arcymag", "Archanioł",
+        "Strażnik Króla", "Inżynier", "Mistrz Wiedzy", "Dumny Krasnolud",
+        "Książę", "Doradca", "Arcydiabeł", "Baronowa",
+        "Rycerz Śmierci", "Nosferatu", "Królowa Liczy", "Banshee",
+        "Rok", "Walkiria", "Mściciel", "Nocny Koszmar", "Śmierć"
+    ]
     const handleLeaderLevel = (e) => {
         const value = Math.min(8, Number(e.target.value))
         if (value > 0) {
@@ -125,7 +132,7 @@ export default function UnitCard(props) {
                 <div className="attack-label ini">{t("targetLabel")}:</div>
                 <div className="attack-value ini">{t("targets", { returnObjects: true })[filteredAttack.reach]}</div>
             </div>
-            {leaderList.includes(selectedUnit.name) && (
+            {skilledList.includes(selectedUnit.name) && (
                 <div className="abilities">
                     <div className="abil-label">{t("abilitiesLabel")}:</div>
                     {

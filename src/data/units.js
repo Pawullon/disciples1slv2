@@ -1094,7 +1094,8 @@ export const unitData = [
     category: "Przywołane",
     isBig: true,
     place: "center",
-    lvlMax: true
+    lvlMax: true,
+    flying: true
   },
   {
     unitIndex: "g000uu0050",
@@ -1117,7 +1118,8 @@ export const unitData = [
     leadership: 1,
     area: "3/7",
     category: "Przywołane",
-    lvlMax: true
+    lvlMax: true,
+    flying: true
   },
   {
     unitIndex: "g000uu0051",
@@ -1741,7 +1743,8 @@ export const unitData = [
     isBig: true,
     place: "center",
     immune: [4],
-    lvlMax: true
+    lvlMax: true,
+    flying: true
   },
   {
     unitIndex: "g000uu0078",
@@ -2344,7 +2347,8 @@ export const unitData = [
     area: "5/7",
     category: "Przywołane",
     immune: [3],
-    lvlMax: true
+    lvlMax: true,
+    flying: true
   },
   {
     unitIndex: "g000uu0104",
@@ -2370,7 +2374,8 @@ export const unitData = [
     isBig: true,
     place: "center",
     immune: [3],
-    lvlMax: true
+    lvlMax: true,
+    flying: true
   },
   {
     unitIndex: "g000uu0105",
@@ -2454,7 +2459,8 @@ export const unitData = [
     isBig: true,
     place: "center",
     immune: [0, 1, 2, 3, 4, 5, 6, 7],
-    lvlMax: true
+    lvlMax: true,
+    flying: true
   },
   {
     unitIndex: "g000uu0108",
